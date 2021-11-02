@@ -1,0 +1,426 @@
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    height: 10%;
+    padding: 20px 80px 20px 80px;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    font-family: 'Quicksand', sans-serif;
+}
+
+.nav-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+.logo {
+    font-family: 'Jolly Lodger', cursive;
+    font-size: 36px;
+    color: #3F6F9C;
+    margin-right: 25px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #3F6F9C;
+}
+
+.left-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.left-container li a{
+    margin-right: 25px;
+    text-decoration: none;
+    color: rgb(175, 173, 173);
+    font-weight: 900;
+    font-size: 13px;
+}
+
+.right-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-container li a{
+    margin-right: 40px;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 13px;
+}
+
+.faq {
+    color: rgb(175, 173, 173);
+}
+
+.sign-in {
+    color: rgb(53, 53, 53);
+}
+button {
+    width: 130px;
+    padding: 12px;
+    border: #3F6F9C;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: #3F6F9C;
+    color: white;
+    font-weight: 900;
+    font-family: 'Quicksand', sans-serif;
+    transition: 800ms;
+    -webkit-transition: 800ms;
+    -moz-transition: 800ms;
+    -ms-transition: 800ms;
+    -o-transition: 800ms;
+    box-shadow: #333 1.5px 1.5px 5px;
+}
+
+nav button:hover {
+    color: #26435E;
+    background-color: #78b0e4;
+}
+
+
+nav a {
+    transition: 800ms;
+    -webkit-transition: 800ms;
+    -moz-transition: 800ms;
+    -ms-transition: 800ms;
+    -o-transition: 800ms;
+}
+
+nav a:hover {
+    color: black;
+    transition: 800ms;
+    -webkit-transition: 800ms;
+    -moz-transition: 800ms;
+    -ms-transition: 800ms;
+    -o-transition: 800ms;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    padding: 60px 100px;
+}
+
+.hero-section img {
+    width: 50%;
+    height: 10%;
+}
+
+.hero-section .texts p {
+    font-size: 3.75rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    line-height: 80px;
+    color: #333;
+}
+
+.hero-section .texts h2 {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 700;
+    color: #333;
+    font-family: 'Quicksand';
+    padding-right: 10%;
+    margin-top: 20px;
+}
+
+.hero-section .texts button {
+    width: 170px;
+    height: 50px;
+    background-color: transparent;
+    color: #3F6F9C;
+    border: 1px solid #3F6F9C;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 800ms;
+    -webkit-transition: 800ms;
+    -moz-transition: 800ms;
+    -ms-transition: 800ms;
+    -o-transition: 800ms;
+}
+
+.hero-section .texts button:hover {
+    transition: 800ms;
+    border: 1px solid #3F6F9C;
+    background-color: #3F6F9C;
+    color: white;
+}
+
+.hero-section .texts button:hover svg {
+    fill: white;
+}
+
+button svg {
+    width: 20px;
+    margin-left: 12px;
+}
+
+.content-after-hero {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.content-after-hero p {
+    text-align: center;
+    font-family: 'Quicksand';
+    font-weight: bolder;
+    color: #333;
+}
+
+.digital-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+.digital-logos svg {
+    width: 100px;
+    margin-right: 25px;
+}
+
+.discover-section {
+    margin-top: 150px;
+    padding: 50px 80px 0px 80px;
+}
+
+.discover-section .discover-text {
+    font-size: 36px;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    color: #333;
+}
+
+.discover-section .items {
+    margin-top: 60px;
+    margin-bottom: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.discover-section .items svg {
+    width: 2.5rem;
+}
+
+.discover-section .items .header-text {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    margin-top: 15px;
+}
+
+.discover-section .items .details {
+    font-size: 18px;
+    font-family: 'Montserrat';
+    margin-top: 15px;
+    line-height: 30px;
+}
+
+.discover-section .personalized-digital-cards .header-text {
+    margin-top: 10px;
+}
+
+.discover-section .payment-of-bills .details {
+    margin-bottom:40px;
+}
+
+.discover-section .personalized-digital-cards .details {
+    margin-bottom:10px;
+}
+
+.discover-section .multiple-wallets .details {
+    margin-bottom:12px;
+}
+
+.discover-section .items .know-more {
+    font-size: 17px;
+    font-family: 'Quicksand';
+    text-decoration: none;
+}
+
+.discover-section .items .multiple-wallets .know-more {
+    color: blue;
+}
+
+.discover-section .items .personalized-digital-cards .know-more {
+    color: green;
+}
+
+.discover-section .items .payment-of-bills .know-more {
+    color: yellow;
+}
+
+.about .moneydash-transfer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 130px 80px;
+    background: linear-gradient(to bottom,#3F6F9C ,#2C4D6D);
+    text-align: left;
+    color: white;
+}
+
+.about .top-text {
+    font-size: 24px;
+    font-family: 'Montserrat';
+}
+
+.about .mid-text {
+    margin-top: 40px;
+    font-size: 36px;
+    line-height: 1.625;
+    font-weight: 800;
+    font-family: 'Montserrat';
+}
+
+.about .bottom-text {
+    font-size: 18px;
+    margin-top: 12px;
+    font-family: 'Montserrat';
+    line-height: 1.4;
+}
+
+.moneydash-transfer img {
+    width: 50%;
+}
+
+.manage-your-account {
+    padding: 120px 80px;
+    background: linear-gradient(to bottom,#2C4D6D,#26435E);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about .manage-your-account .gta {
+   font-size: 20px; 
+   font-family: 'Quicksand';
+   margin-top: 50px;
+}
+
+.download-icons {
+    display: flex;
+}
+
+.download-icons img {
+    width: 120px;
+    height: 35px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.mockups {
+    display: flex;
+    padding-right: 70px;
+}
+
+.mockups img {
+    width: 13rem;
+    height: 10%;
+}
+
+.image2 {
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+.about .happy-customers {
+    padding: 120px 80px;
+    background: linear-gradient(to bottom, #26435E, #1d3449);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about .happy-customers img {
+    width: 50%;
+}
+
+.stats {
+    padding: 120px 170px;
+    background-color: #1d3449;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.digits {
+    font-family: 'Montserrat';
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.category {
+    font-size: 15px;
+    font-family: 'Quicksand';
+    letter-spacing: 2px;
+}
+
+.big-digits {
+    font-family: 'Montserrat';
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.big-category {
+    font-size: 17px;
+    font-family: 'Quicksand';
+    letter-spacing: 2px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    background-color: #1d3449;
+}
+
+footer .left-container {
+    color: white;
+    font-family: 'Jolly Lodger', cursive;
+    font-size: 36px;
+}
+
+footer .middle-container {
+    color: white;
+    font-family: 'Quicksand';
+    text-align: center;
+    font-size: 10px;
+}
+
+.right-container .icons svg {
+    width: 24px;
+}
